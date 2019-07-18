@@ -1,11 +1,13 @@
 mgmt_IP: 10.0.2.2
-sdn_controller:10.20.2.2
 Vlans:
-	Green:
-	id:20
+	red:
+	id:10
 	Blue:
 	id:20
+	Green:
+	id:30
 ports:
 	1:[10]
-	1:[20]
-	2:[10,20]
+	1:[30]
+	2:[20]
+	3:[10,202]
